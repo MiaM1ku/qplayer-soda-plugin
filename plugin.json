@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "soda",
   "name": "汽水音乐",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "apiVersion": "1.0",
   "minHostVersion": "1.4.0",
   "entry": "src/main.js",
@@ -23,7 +23,8 @@
   ],
   "permissions": [
     "network",
-    "credentials"
+    "credentials",
+    "webAuth"
   ],
   "networkDomains": [
     "api.qishui.com",
